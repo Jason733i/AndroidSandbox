@@ -21,4 +21,12 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Square"
+        android:id="@+id/squareButton"
+        android:layout_below="@+id/triangleButton"
+        android:layout_alignLeft="@+id/triangleButton" />
+
 </RelativeLayout>
